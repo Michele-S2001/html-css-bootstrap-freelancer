@@ -39,7 +39,12 @@ a {
     /* padding: 20px; */
 }
 
-.debug .hero [class^="col"]{
+.debug .hero [class^="col"] {
     height: 400px;
     border: 2px solid red;
+}
+
+.debug .portfolio [class^="col-"] {
+    height: 200px;
+    border: 2px solid black;
 }
