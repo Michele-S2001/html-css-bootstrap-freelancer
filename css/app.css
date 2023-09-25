@@ -21,6 +21,10 @@ a {
     background-color: var(--bg-dark-blue);
 }
 
+.bg-blue {
+    background-color: var(--bg-light-blue);
+}
+
 .bg-acquamarine {
     background-color: var(--bg-acquamarine);
 }
@@ -70,3 +74,8 @@ a {
     min-height: 50px;
     border: 2px solid red;
 } 
+
+.debug .page-footer [class^="col-"] {
+    min-height: 150px;
+    border: 3px solid blueviolet;
+}
