@@ -65,3 +65,8 @@ a {
     min-height: auto;
     border: 3px solid green;
 }
+
+.debug .contact-me [class^="col-"] {
+    min-height: 50px;
+    border: 2px solid red;
+} 
