@@ -1,0 +1,40 @@
+/* PALETTE */
+:root {
+    --bg-dark-blue: #2C3E50;
+    --bg-acquamarine: #1ABC9C;
+    --bg-light-blue: #3A546D;
+}
+
+/* RESET RULES */
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+}
+
+/* NAVBAR */
+.page-header {
+    background-color: var(--bg-dark-blue);
+}
+
+
+/* HERO */
+.hero {
+    background-color: var(--bg-acquamarine);
+}
+
+
+
+/* DEBUG */
+.debug .row,
+.debug [class^="col"] {
+    border: 2px solid black;
+}
+
+.debug [class^="col"] {
+    padding: 20px;
+}
