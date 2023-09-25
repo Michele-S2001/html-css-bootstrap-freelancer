@@ -75,7 +75,7 @@ a {
     border: 2px solid red;
 } 
 
-.debug .page-footer [class^="col-"] {
+.debug .page-footer .info [class^="col-"] {
     min-height: 150px;
     border: 3px solid blueviolet;
 }
