@@ -16,16 +16,28 @@ a {
     color: currentColor;
 }
 
-/* NAVBAR */
-.page-header {
+/* UTILITY CLASSES */
+.bg-dark-blue {
     background-color: var(--bg-dark-blue);
 }
 
-
-/* HERO */
-.hero {
+.bg-acquamarine {
     background-color: var(--bg-acquamarine);
 }
+
+.text-dark-blue {
+    color: var(--bg-dark-blue);
+}
+
+/* NAVBAR */
+
+
+
+/* HERO */
+
+
+
+/* ABOUT */
 
 
 
@@ -47,4 +59,9 @@ a {
 .debug .portfolio [class^="col-"] {
     height: 200px;
     border: 2px solid black;
+}
+
+.debug .about [class^="col-"] {
+    min-height: auto;
+    border: 3px solid green;
 }
