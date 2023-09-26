@@ -38,6 +38,32 @@ a {
     color: var(--bg-acquamarine);
 }
 
+/* BUTTONS */
+.button {
+    color: var(--bg-white);
+}
+
+.button:hover {
+    background-color: var(--bg-white);
+    color: var(--bg-acquamarine);
+    border: 1px solid var(--bg-acquamarine)!important;
+}
+
+/* NAVBAR */
+.nav_item a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: currentColor;
+    width: 0;
+    transition: 0.2s linear;
+}
+
+.nav_item:hover ::after {
+    width: 100%;
+}
+
+
 /* HERO */
 .hero__img img {
     max-width: 230px;
