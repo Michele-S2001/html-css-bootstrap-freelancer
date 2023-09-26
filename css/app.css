@@ -3,6 +3,7 @@
     --bg-dark-blue: #2C3E50;
     --bg-acquamarine: #1ABC9C;
     --bg-light-blue: #3A546D;
+    --bg-white: #FFFFFF;
 }
 
 /* RESET RULES */
@@ -38,27 +39,44 @@ a {
 
 
 /* HERO */
+.hero__img img {
+    max-width: 230px;
+}
 
+.hero__skills {
+    font-size: 15px;
+}
+
+.section-title .star::after, 
+.section-title .star::before {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: var(--bg-white);
+    width: 20%;
+    max-width: 170px;
+} 
 
 
 /* ABOUT */
 
 
 
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+    .hero__skills {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero__skills {
+        font-size: 25px;
+    }
+}
+
+
 /* DEBUG */
-.debug .row,
-.debug [class^="col"] {
-    /* border: 2px solid black; */
-}
-
-.debug [class^="col"] {
-    /* padding: 20px; */
-}
-
-.debug .hero [class^="col"] {
-    height: 400px;
-    border: 2px solid red;
-}
 
 .debug .portfolio [class^="col-"] {
     height: 200px;
