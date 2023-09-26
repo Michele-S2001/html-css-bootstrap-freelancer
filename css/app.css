@@ -52,7 +52,7 @@ a {
     content: "";
     display: block;
     height: 3px;
-    background-color: var(--bg-white);
+    background-color: currentColor;
     width: 20%;
     max-width: 170px;
 } 
@@ -78,15 +78,6 @@ a {
 
 /* DEBUG */
 
-.debug .portfolio [class^="col-"] {
-    height: 200px;
-    border: 2px solid black;
-}
-
-.debug .about [class^="col-"] {
-    min-height: auto;
-    border: 3px solid green;
-}
 
 .debug .contact-me [class^="col-"] {
     min-height: 50px;
