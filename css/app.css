@@ -34,6 +34,10 @@ a {
     color: var(--bg-dark-blue);
 }
 
+.text-acqua {
+    color: var(--bg-acquamarine);
+}
+
 /* HERO */
 .hero__img img {
     max-width: 230px;
@@ -65,10 +69,25 @@ a {
     border: 0;
     border-bottom: 1px solid rgb(203, 203, 203);
     padding-bottom: 1rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
 }
 
+/* FOOTER */
+.ms_icon {
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid var(--bg-white);
+    display: inline-block;
+    border-radius: 50%;
+}
 
+.ms_icon i {
+    transform: translateY(50%);
+}
+
+.ms_icon:not(:last-child) {
+    margin-right: 0.5rem;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
@@ -81,12 +100,4 @@ a {
     .hero__skills {
         font-size: 25px;
     }
-}
-
-
-/* DEBUG */
-
-.debug .page-footer .info [class^="col-"] {
-    min-height: 150px;
-    border: 3px solid blueviolet;
 }
