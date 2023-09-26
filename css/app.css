@@ -89,10 +89,18 @@ a {
     margin-right: 0.5rem;
 }
 
+.freelancer-text {
+    font-size: 1rem;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
     .hero__skills {
         font-size: 20px;
+    }
+
+    .freelancer-text {
+        font-size: 1.2rem;
     }
 }
 
